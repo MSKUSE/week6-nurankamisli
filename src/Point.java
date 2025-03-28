@@ -13,4 +13,10 @@ public class Point {
         this.xCoord = xy;
         this.yCoord = xy;
     }
+
+    public String toString(){
+        return "Point{"+
+                "xCoord:" + xCoord +
+                ", "+"yCoord:" + yCoord + "}";
+    }
 }
